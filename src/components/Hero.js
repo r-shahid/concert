@@ -12,7 +12,7 @@ function Hero(){
             const progress = Math.min(currentScroll / maxScroll, 1)
             // console.log(progress)
             setScrollStatus(progress)
-            if (progress > 0.97){
+            if (progress > 0.8){
                 // console.log('9')
                 setOpacity(0);
             } else {

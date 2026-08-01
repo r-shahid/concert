@@ -6,7 +6,7 @@
 
 .stack-card {
   position: sticky;
-  top: calc(150px + (var(--index) - 1) * 20px);
+  top: calc(180px + (var(--index) - 1) * 32px);
   
   /* Calculates decreasing scale values for a uniform depth effect */
   transform: scale(calc(1 - (8 - var(--index)) * 0.01));
@@ -18,21 +18,32 @@
   gap: 38px;
   align-items: center;
   padding: 28px;
-  box-shadow: 0 25px 80px rgba(30, 24, 18, 0.18);
-  border-radius: 34px;
+  /* box-shadow: 0 25px 80px rgba(30, 24, 18, 0.18); */
+  border-radius: 30px;
   background: var(--card-bg);
+  /* background: linear-gradient(to bottom, var(--card-bg) 95%, rgba(0, 0, 0, 0.206)); */
   text-decoration: none;
-  color: inherit;
+  color: var(--card-text);
+  filter: drop-shadow(0 0 6px rgba(231, 171, 157, 0.468));
 }
 
-.stack-card:nth-child(1) { --card-bg: #c28515; }
-.stack-card:nth-child(2) { --card-bg: #114c9a; }
-.stack-card:nth-child(3) { --card-bg: #32dd3b; }
-.stack-card:nth-child(4) { --card-bg: #b451d7; }
-.stack-card:nth-child(5) { --card-bg: #e65c00; }
-.stack-card:nth-child(6) { --card-bg: #00b4d8; }
-.stack-card:nth-child(7) { --card-bg: #2a9d8f; }
-.stack-card:nth-child(8) { --card-bg: #e76f51; }
+.stack-card:nth-child(4n+1) { 
+   --card-text: var(--card-3); 
+   --card-bg: var(--card-2);
+}
+ .stack-card:nth-child(4n+2) { 
+    --card-text: var(--card-4); 
+    --card-bg: var(--card-1);
+}
+ .stack-card:nth-child(4n+3) { 
+     --card-text: var(--card-2);
+     --card-bg: var(--card-3); 
+}
+ .stack-card:nth-child(4n) { 
+    --card-text: var(--card-4); 
+    --card-bg: var(--card-5);
+}
+
 .card-image {
   height: 100%;
   min-height: 400px;

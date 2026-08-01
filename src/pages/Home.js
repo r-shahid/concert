@@ -16,7 +16,7 @@ function Home({allConcerts}) {
       <div className="home-content">
         <section className="stack-section">
           <div className="stack-heading">
-            <h2>2024 - Present</h2>
+            <h2> 2024 - Present </h2>
           </div>
             <Tickets allConcerts={allConcerts}/>
           

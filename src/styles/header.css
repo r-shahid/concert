@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
     padding: 8px;
-    font-size: 1.5rem;
+    font-size: 1.65rem;
     color: white;
     background-color: black;
 }
@@ -10,4 +10,15 @@
 .Header a {
     text-decoration: none;
     color: inherit;
+}
+
+.Header .title{
+    font-family: var(--title-font);
+    letter-spacing: 1px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.Header .portfolio-link {
+    font-family: "Silkscreen";
 }

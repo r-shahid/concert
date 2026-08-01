@@ -1,9 +1,26 @@
 .Hero {
   position: relative;
   width: 100%;
-  height: 70vh;
-  background-color: #000000; /* Add your background color or image here */
-  box-shadow: 0px 60px 50px 30px black;
+  height: 80vh;
+  /* Add your background color or image here */
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.313) , rgb(0, 0, 0) 95%), url(../assets/photos/IMG_4493.jpg);
+  /* background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.97)), url(../assets/photos/IMG_4490.jpg); */
+  /* background-position: center; */
+  background-size: cover;
+  background-repeat: no-repeat;
+  box-shadow: 0 20px 40px rgb(0, 0, 0),   
+  0 40px 80px rgb(0, 0, 0);
+}
+.Hero::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  top: 100%; 
+  left: 1px;
+  right: 1px;
+  height: 20px; 
+  background: linear-gradient(to bottom, rgb(0, 0, 0), rgba(0, 0, 0, 0));
+  pointer-events: none;
 }
 
 .Hero .title {
@@ -22,8 +39,13 @@
 
   white-space: nowrap;
   font-size: 3rem;
-  color: white;
-  font-weight: bold;
+  font-family: var(--title-font);
+
+  letter-spacing: 4px;
+  color: var(--title-color);
+  text-shadow: 0 0 10px var(--title-shadow);
+  font-weight: 600;
+  text-transform: uppercase;
   /* z-index: 100; */
   pointer-events: none; /* Allows user to click things behind the text */
 
@@ -33,16 +55,16 @@
     Adjust 20px / 16px to match your desired header margin padding.
   */
   transform: translate(
-    calc(-50% + (var(--scroll) * (-55vw + 35% + 30px))),
-    calc(-50% + (var(--scroll) * (-53vh + 50% + 20px)))
-  )
-   /* transform: translate(
+      calc(-50% + (var(--scroll) * (-65vw + 50% + 30px))),
+      calc(-50% + (var(--scroll) * (-47vh + 35% + 20px)))
+    )
+    /* transform: translate(
     calc(var(--scroll) * (-50% + 24px)),
     calc(var(--scroll) * (-50% + 20px))
    ) */
-  /* Optional: Shrink text slightly (to 70% scale) as it settles into the header */
-  scale(calc(1 - (var(--scroll) * 0.4)));
-  
+    /* Optional: Shrink text slightly (to 70% scale) as it settles into the header */
+    scale(calc(1 - (var(--scroll) * 0.5)));
+
   /* Origin shift ensures clean scaling toward the top-left */
-  transform-origin: center center; 
+  transform-origin: center center;
 }

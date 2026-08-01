@@ -1,38 +1,39 @@
+@font-face {
+  font-family: "Impact Label";
+  src: url(./assets/fonts/Impact\ Label.ttf) format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Dot Gothic";
+  src: url(./assets/fonts/DotGothic16-Regular.ttf);
+}
+
+/* @font-face {
+  font-family: "Chango";
+  src: url(./assets/fonts/Chango-Regular.ttf);
+} */
+
+@font-face {
+  font-family: "Silkscreen";
+  src: url(./assets/fonts/Silkscreen-Regular.ttf);
+}
+
+:root {
+  --secondary-font: "Impact Label", sans-serif;
+  --title-font: "Dot Gothic";
+  --background: rgb(10, 10, 10);
+  --title-color: white;
+  --title-shadow: rgb(0, 0, 0);
+  --card-1: #f3931d;
+  --card-2: #ee4525;
+  --card-3: #e2dbc1;
+  --card-4: #222b2a;
+  --card-5: #4ebdbf;
+}
+
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  background-color: var(--background);
 }

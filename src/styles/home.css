@@ -16,7 +16,7 @@
     opacity: 0;
     animation: fadeIn linear both;
     animation-timeline: scroll(root);
-    animation-range: 69vh calc(70vh + 1px);
+    animation-range: 79vh 81vh;
 }
 @keyframes fadeIn {
     to {
@@ -33,7 +33,18 @@
     /* max-width: 1120px; */
     /* margin: auto; */
     position: sticky;
-    top: 90px;
+    top: 100px;
+    font-family: var(--secondary-font);
+    font-size: 1.5rem;
+}
+
+.stack-heading h2 {
+    margin: auto;
+    margin-bottom: 48px;
+    rotate: -1deg;
+    color: black;
+    background-color: white;
+    width: fit-content;
 }
 
 
