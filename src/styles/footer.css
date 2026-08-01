@@ -1,0 +1,9 @@
+.Footer {
+    background-color: rgb(234, 224, 224);
+    padding: 8px;
+    font-weight: 500;
+}
+
+.Footer a {
+    color: inherit;
+}

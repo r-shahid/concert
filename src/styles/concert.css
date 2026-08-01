@@ -1,0 +1,47 @@
+.concert-details {
+    /* background-color: red; */
+    width: 80vw;
+    margin: auto;
+    text-align: left;
+    padding-top: 10vh;
+}
+
+.concert-details .info .date{
+    /* padding: 8px 0px; */
+    margin-bottom: 16px;
+}
+
+.concert-details .box {
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-between;
+}
+
+.concert-details .box > div > p{
+    border: 2px solid black;
+    margin: 0;
+}
+
+.concert-details .box .setlist {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    border: 2px solid black;
+}
+
+.concert-details .poster {
+    border: 2px solid black;
+    margin: 8px auto;
+    width: 80%;
+    aspect-ratio: 4/5;
+}
+
+.concert-details .text {
+    border: 2px solid black;
+    padding: 8px 0;
+}
+
+.concert-details .gallery {
+    border: 2px solid black;
+    margin: 16px 0;
+}

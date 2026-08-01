@@ -1,0 +1,13 @@
+.Header {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+    font-size: 1.5rem;
+    color: white;
+    background-color: black;
+}
+
+.Header a {
+    text-decoration: none;
+    color: inherit;
+}

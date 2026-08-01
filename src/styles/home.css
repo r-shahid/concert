@@ -1,0 +1,44 @@
+.Home {
+    /* background-color: red; */
+}
+.home-content {
+  /* height: 300vh; */
+  /* background-color: red; */
+  padding-top: 80px;
+  /* min-height: 400vh; */
+}
+
+.Home .header {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    /* min-height: 100vh; */
+    opacity: 0;
+    animation: fadeIn linear both;
+    animation-timeline: scroll(root);
+    animation-range: 69vh calc(70vh + 1px);
+}
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
+}
+
+.stack-section {
+  padding: 80px 20px;
+  min-height: 50px;
+}
+
+.stack-heading {
+    /* max-width: 1120px; */
+    /* margin: auto; */
+    position: sticky;
+    top: 90px;
+}
+
+
+
+
+
+
+

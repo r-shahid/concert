@@ -1,0 +1,210 @@
+[
+  {
+    "index": 1,
+    "slug" : "travis-scott",
+    "thumbnail": "/images/card1.webp",
+    "artist": "Travis Scott",
+    "tourName": "One Night Only in Utopia",
+    "venue": "MetLife Stadium",
+    "city": "East Rutherford",
+    "state": "NJ",
+    "date": {
+      "m": "October",
+      "d": "9",
+      "y": "2024"
+    },
+    "section": "Section 126",
+    "row": "Row 4",
+    "seat": "Seat 5",
+    "setList": "setlist 1 link",
+    "poster": "poster img 1",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <br /> Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <h3>sub-heading</h3> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "photos": {
+      "1": "link 1",
+      "2": "link 2",
+      "3": "link 3"
+    }
+  },
+  {
+    "index": 2,
+    "slug" : "kendrick-lamar-sza",
+    "thumbnail": "/images/card2.webp",
+    "artist": "Kendrick Lamar and SZA",
+    "tourName": "Grand National Tour",
+    "venue": "MetLife Stadium",
+    "city": "East Rutherford",
+    "state": "NJ",
+    "date": {
+      "m": "May",
+      "d": "8",
+      "y": "2025"
+    },
+    "section": "Section 131",
+    "row": "Row 45",
+    "seat": "Seat 4",
+    "setList": "setlist 2 link",
+    "poster": "poster img 2",
+    "text": "text 2",
+    "photos": {
+      "1": "link 1",
+      "2": "link 2",
+      "3": "link 3"
+    }
+  },
+  {
+    "index": 3,
+    "slug" : "beyonce",
+    "thumbnail": "/images/card3.webp",
+    "artist": "Beyoncé",
+    "tourName": "Cowboy Carter Tour",
+    "venue": "MetLife Stadium",
+    "city": "East Rutherford",
+    "state": "NJ",
+    "date": {
+      "m": "May",
+      "d": "29",
+      "y": "2025"
+    },
+    "section": "Section 317",
+    "row": "Row 20",
+    "seat": "Seat 23",
+    "setList": "setlist 3 link",
+    "poster": "poster img 3",
+    "text": "text 3",
+    "photos": {
+      "1": "link 1",
+      "2": "link 2",
+      "3": "link 3"
+    }
+  },
+  {
+    "index": 4,
+    "slug" : "wacka-flocka-flame",
+    "thumbnail": "thumbnail 5",
+    "artist": "Wacka Flocka Flame",
+    "tourName": "Collect-A-Con",
+    "venue": "New Jersey Expo Center",
+    "city": "Edison",
+    "state": "NJ",
+    "date": {
+      "m": "July",
+      "d": "12",
+      "y": "2025"
+    },
+    "section": null,
+    "row": null,
+    "seat": null,
+    "setList": "setlist 5 link",
+    "poster": "poster img 5",
+    "text": "text 5",
+    "photos": {
+      "1": "link 1",
+      "2": "link 2",
+      "3": "link 3"
+    }
+  },
+  {
+    "index": 5,
+    "slug" : "steve-aoki",
+    "thumbnail": "thumbnail 6",
+    "artist": "Steve Aoki",
+    "tourName": "Collect-A-Con",
+    "venue": "Westworld of Scottsdale",
+    "city": "Phoenix",
+    "state": "AZ",
+    "date": {
+      "m": "May",
+      "d": "16",
+      "y": "2026"
+    },
+    "section": null,
+    "row": null,
+    "seat": null,
+    "setList": "setlist 6 link",
+    "poster": "poster img 6",
+    "text": "text 6",
+    "photos": {
+      "1": "link 1",
+      "2": "link 2",
+      "3": "link 3"
+    }
+  },
+  {
+    "index": 6,
+    "slug" : "don-toliver",
+    "thumbnail": "/images/card3.webp",
+    "artist": "Don Toliver",
+    "tourName": "Octane Tour",
+    "venue": "Prudential Center",
+    "city": "Newark",
+    "state": "NJ",
+    "date": {
+      "m": "May",
+      "d": "27",
+      "y": "2026"
+    },
+    "section": "Section 20",
+    "row": "Row 16",
+    "seat": "Seat 14",
+    "setList": "setlist 4 link",
+    "poster": "poster img 4",
+    "text": "text 4",
+    "photos": {
+      "1": "link 1",
+      "2": "link 2",
+      "3": "link 3"
+    }
+  },
+  {
+    "index": 7,
+    "slug" : "soulja-boy",
+    "thumbnail": "thumbnail 7",
+    "artist": "Soulja Boy",
+    "tourName": "Collect-A-Con",
+    "venue": "New Jersey Expo Center",
+    "city": "Edison",
+    "state": "NJ",
+    "date": {
+      "m": "July",
+      "d": "11",
+      "y": "2026"
+    },
+    "section": null,
+    "row": null,
+    "seat": null,
+    "setList": "setlist 7 link",
+    "poster": "poster img 7",
+    "text": "text 7",
+    "photos": {
+      "1": "link 1",
+      "2": "link 2",
+      "3": "link 3"
+    }
+  },
+  {
+    "index": 8,
+    "slug" : "neyo-akon",
+    "thumbnail": "thumbnail 7",
+    "artist": "Ne-Yo & Akon",
+    "tourName": "Nights Like This Tour",
+    "venue": "PNC Bank Arts Center",
+    "city": "Holmdel",
+    "state": "NJ",
+    "date": {
+      "m": "July",
+      "d": "19",
+      "y": "2026"
+    },
+    "section": "Section 104",
+    "row": "Row P",
+    "seat": "Seat 27",
+    "setList": "setlist 7 link",
+    "poster": "poster img 7",
+    "text": "text 7",
+    "photos": {
+      "1": "link 1",
+      "2": "link 2",
+      "3": "link 3"
+    }
+  }
+]
