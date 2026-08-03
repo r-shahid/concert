@@ -14,8 +14,8 @@
 
 .Header .title{
     font-family: var(--title-font);
-    letter-spacing: 1px;
-    font-weight: 500;
+    letter-spacing: 2px;
+    font-weight: 600;
     text-transform: uppercase;
 }
 

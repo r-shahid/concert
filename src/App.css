@@ -23,7 +23,7 @@
 :root {
   --secondary-font: "Impact Label", sans-serif;
   --title-font: "Dot Gothic";
-  --background: rgb(10, 10, 10);
+  --background: rgb(44, 39, 39);
   --title-color: white;
   --title-shadow: rgb(0, 0, 0);
   --card-1: #f3931d;
@@ -31,6 +31,7 @@
   --card-3: #e2dbc1;
   --card-4: #222b2a;
   --card-5: #4ebdbf;
+  --card-5: #437D80;
 }
 
 .App {
