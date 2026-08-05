@@ -12,12 +12,17 @@ function Concert({ allConcerts }) {
   if (!concert) {
     return <h2>Concert not found</h2>;
   }
-  
+
+  const colors = ["one", "two", "three", "five"]
+
+  const bg_color = colors[Math.floor(Math.random()*4)];
+
   const concert_class = concert.artist.split(" ").join("-").toLowerCase()+"-"+concert.date.m.toLowerCase()+"-"+concert.date.y;
-//   console.log(concert_class)
+
+  
 
   return (
-    <div className="Concert">
+    <div className={`Concert ${bg_color}`}>
       <Header />
       <div className={`concert-details ${concert_class}`}>
         <div className="info">

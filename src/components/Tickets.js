@@ -3,25 +3,28 @@ import { Link } from "react-router-dom";
 import "../styles/ticket.css";
 
 function Ticket({ allConcerts }) {
+  for (let i = 0 ; i < allConcerts.length; i++){
+    allConcerts[i].index = i+1
+  }
+
   return (
-    <div className="cards">
+    <div className="Ticket">
       {allConcerts.map((concert) => {
         return (
           <Link
-            className="stack-card"
+            className="stack"
             key={concert.index}
-            style={{ "--index": concert.index }}
+            // style={{ "--index": concert.index }}
             to={`/concert/${concert.date.y}/${concert.slug}`}
           >
-            <div className="card-image">
+            <div className="ticket-image">
               <img
-                src={concert.thumbnail}
+                src={`photos/${concert.thumbnail}`}
                 alt={`${concert.artist} at ${concert.venue}`}
               />
             </div>
-            <div className="card-content">
-              {/* <span className="card-number">{concert.opener}</span> */}
-              <span className="card-number">{concert.artist}</span>
+            <div className="ticket-content">
+              <span className="ticket-artist">{concert.artist}</span>
               <div className="tour-name">{concert.tourName}</div>
               <div className="location">
                 <p className="venue">{concert.venue}</p>

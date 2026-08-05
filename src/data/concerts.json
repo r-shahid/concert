@@ -1,6 +1,5 @@
 [
   {
-    "index": 1,
     "slug" : "travis-scott",
     "thumbnail": "/images/card1.webp",
     "artist": "Travis Scott",
@@ -26,7 +25,6 @@
     }
   },
   {
-    "index": 2,
     "slug" : "kendrick-lamar-sza",
     "thumbnail": "/images/card2.webp",
     "artist": "Kendrick Lamar and SZA",
@@ -52,7 +50,6 @@
     }
   },
   {
-    "index": 3,
     "slug" : "beyonce",
     "thumbnail": "/images/card3.webp",
     "artist": "Beyoncé",
@@ -78,9 +75,33 @@
     }
   },
   {
-    "index": 4,
-    "slug" : "wacka-flocka-flame",
+    "slug" : "the-weeknd",
     "thumbnail": "thumbnail 5",
+    "artist": "The Weeknd",
+    "tourName": "After Hours Til Dawn Tour",
+    "venue": "MetLife Stadium",
+    "city": "East Rutherford",
+    "state": "NJ",
+    "date": {
+      "m": "June",
+      "d": "7",
+      "y": "2025"
+    },
+    "section": "Section 142",
+    "row": "Row 14",
+    "seat": "Seat 2",
+    "setList": "setlist 5 link",
+    "poster": "poster img 5",
+    "text": "text 5",
+    "photos": {
+      "1": "link 1",
+      "2": "link 2",
+      "3": "link 3"
+    }
+  },
+  {
+    "slug" : "wacka-flocka-flame",
+    "thumbnail": "wakaflocka/wakaflocka.jpg",
     "artist": "Wacka Flocka Flame",
     "tourName": "Collect-A-Con",
     "venue": "New Jersey Expo Center",
@@ -104,7 +125,6 @@
     }
   },
   {
-    "index": 5,
     "slug" : "steve-aoki",
     "thumbnail": "thumbnail 6",
     "artist": "Steve Aoki",
@@ -130,7 +150,6 @@
     }
   },
   {
-    "index": 6,
     "slug" : "don-toliver",
     "thumbnail": "/images/card3.webp",
     "artist": "Don Toliver",
@@ -156,7 +175,6 @@
     }
   },
   {
-    "index": 7,
     "slug" : "soulja-boy",
     "thumbnail": "thumbnail 7",
     "artist": "Soulja Boy",
@@ -182,7 +200,6 @@
     }
   },
   {
-    "index": 8,
     "slug" : "neyo-akon",
     "thumbnail": "thumbnail 7",
     "artist": "Ne-Yo & Akon",

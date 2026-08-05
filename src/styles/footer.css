@@ -1,9 +1,22 @@
 .Footer {
-    background-color: rgb(234, 224, 224);
+    background-color:var(--background);
     padding: 8px;
-    font-weight: 500;
+    /* margin-top: 100px; */
+    /* text-transform: capitalize; */
+    width: 100%;
+    
+}
+.Footer div {
+    font-family: var(--secondary-font);
+    font-size: 1.5rem;
+    /* font-weight: bold !important; */
+    color: black;
+    background-color: white;
+    width: fit-content;
+    margin: auto;
 }
 
 .Footer a {
     color: inherit;
+    /* font-weight: bold; */
 }

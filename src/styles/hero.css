@@ -2,69 +2,59 @@
   position: relative;
   width: 100%;
   height: 80vh;
-  /* Add your background color or image here */
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) , rgba(0, 0, 0, 0.765) 99%), url(../assets/photos/IMG_4493.jpg);
-  /* background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.97)), url(../assets/photos/IMG_4490.jpg); */
-  /* background-position: center; */
+  box-shadow:
+    0 20px 40px rgb(0, 0, 0),
+    0 40px 80px rgb(0, 0, 0);
+}
+.Hero::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image:
+    linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.77) 99%),
+    url(../assets/photos/hero.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  box-shadow: 0 20px 40px rgb(0, 0, 0),   
-  0 40px 80px rgb(0, 0, 0);
+  filter: brightness(150%);
+  z-index: 1;
 }
 .Hero::after {
   content: "";
   position: absolute;
   width: 100%;
-  top: 100%; 
+  top: 100%;
   left: 1px;
   right: 1px;
-  height: 20px; 
+  height: 20px;
   background: linear-gradient(to bottom, rgb(0, 0, 0), rgba(0, 0, 0, 0));
   pointer-events: none;
+  z-index: 2;
 }
 
 .Hero .title {
   position: fixed;
-  /* Start positioned directly in the center of the viewport */
   top: 35%;
   left: 50%;
-  /* top: 0;
-  left: 0; */
-  /* width: 100%; */
   width: max-content;
-  /* height: 100vh; */
-  /* display: grid; */
-
-  /* place-items: center; */
-
+  z-index: 3;
   white-space: nowrap;
   font-size: 3rem;
   font-family: var(--title-font);
-
   letter-spacing: 4px;
   color: var(--title-color);
-  text-shadow: 0 0 10px var(--title-shadow);
+  text-shadow:
+    0 0 5px var(--title-shadow),
+    0 0 10px var(--title-shadow);
   font-weight: 600;
   text-transform: uppercase;
-  /* z-index: 100; */
-  pointer-events: none; /* Allows user to click things behind the text */
-
-  /*
-    -50% keeps it perfectly centered at start.
-    As --scroll goes from 0 to 1, it shifts toward the top left.
-    Adjust 20px / 16px to match your desired header margin padding.
-  */
+  pointer-events: none;
   transform: translate(
       calc(-50% + (var(--scroll) * (-65vw + 50% + 30px))),
       calc(-50% + (var(--scroll) * (-47vh + 35% + 20px)))
     )
-    /* transform: translate(
-    calc(var(--scroll) * (-50% + 24px)),
-    calc(var(--scroll) * (-50% + 20px))
-   ) */
-    /* Optional: Shrink text slightly (to 70% scale) as it settles into the header */
     scale(calc(1 - (var(--scroll) * 0.5)));
-
-  /* Origin shift ensures clean scaling toward the top-left */
   transform-origin: center center;
 }

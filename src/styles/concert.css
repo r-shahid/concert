@@ -1,32 +1,109 @@
+.Concert.one{
+    background-color: var(--card-1);
+}
+.Concert.two {
+    background-color: var(--card-2);
+}
+.Concert.three{
+    background-color: var(--card-3);
+}
+.Concert.five {
+    background-color: var(--card-5);
+}
 .concert-details {
-    /* background-color: red; */
     width: 80vw;
     margin: auto;
     text-align: left;
     padding-top: 10vh;
 }
 
+.concert-details .info {
+    /* border: 2px solid black; */
+}
+
+.concert-details .info .artist {
+    /* border: 2px solid black; */
+    font-family: var(--title-font);
+    /* text-align: right; */
+  margin-bottom: 0px;
+  font-size: clamp(1rem, 3.5vw, 2.5rem);
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  /* color: var(--ticket-details); */
+  text-transform: uppercase;
+}
+
+.concert-details .info .tourName {
+    margin-top: 0px;
+    font-weight: 900;
+  font-variation-settings: "wdth" 125;
+  /* border: 2px solid black; */
+  /* text-align: left; */
+  /* max-width: 520px; */
+  font-size: clamp(1.5rem, 3.5vw, 3.5rem) !important;
+  /* line-height: 0.95; */
+  letter-spacing: 0.5px; 
+}
+
 .concert-details .info .date{
     /* padding: 8px 0px; */
     margin-bottom: 16px;
+    /* text-align: left; */
+  /* max-width: 500px; */
+  font-size: clamp(.8rem, 1.5vw, 1.5rem);
+  /* line-height: 1.7; */
+  margin-top: 0;
+  color: var(--ticket-details);
 }
 
 .concert-details .box {
-    border: 2px solid black;
+    /* border: 2px solid black; */
     display: flex;
     justify-content: space-between;
+    margin-bottom: 16px;
 }
 
 .concert-details .box > div > p{
-    border: 2px solid black;
+    /* border: 2px solid black; */
     margin: 0;
+}
+
+.concert-details .box .location, .concert-details .box .setlist{
+    font-family: var(--text-font);
+    font-size: clamp(1rem, 2vw, 2rem);
+    font-weight: 800;
+    color: var(--ticket-details);
 }
 
 .concert-details .box .setlist {
     display: flex;
     /* justify-content: center; */
     align-items: center;
+    /* border: 2px solid black; */
+    /* cursor: pointer;
+    background-color: var(--card-3);
     border: 2px solid black;
+    box-shadow: 
+        1px 1px 0px 0px,
+        2px 2px 0px 0px,
+        3px 3px 0px 0px;
+    position: relative;
+    padding: 4px 8px; */
+    height: fit-content;
+    font-family: var(--secondary-font);
+    rotate: -1deg;
+    background-color: white;
+    /* font-weight: 900; */
+}
+/* .concert-details .box .setlist:active{
+    box-shadow: 0px 0px 0px 0px;
+    top: 3px;
+    left: 3px;
+} */
+
+.concert-details .box .setlist a {
+    text-decoration: none;
+    color: black;
 }
 
 .concert-details .poster {

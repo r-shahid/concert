@@ -10,19 +10,20 @@
   src: url(./assets/fonts/DotGothic16-Regular.ttf);
 }
 
-/* @font-face {
-  font-family: "Chango";
-  src: url(./assets/fonts/Chango-Regular.ttf);
-} */
-
 @font-face {
   font-family: "Silkscreen";
   src: url(./assets/fonts/Silkscreen-Regular.ttf);
 }
 
+@font-face {
+  font-family: 'Google Sans Flex';
+  src: url(./assets/fonts/GoogleSansFlex-VariableFont_GRAD\,ROND\,opsz\,slnt\,wdth\,wght.ttf);
+}
+
 :root {
   --secondary-font: "Impact Label", sans-serif;
   --title-font: "Dot Gothic";
+  --text-font: "Google Sans Flex";
   --background: rgb(44, 39, 39);
   --title-color: white;
   --title-shadow: rgb(0, 0, 0);
@@ -30,8 +31,9 @@
   --card-2: #ee4525;
   --card-3: #e2dbc1;
   --card-4: #222b2a;
-  --card-5: #4ebdbf;
+  /* --card-5: #4ebdbf; */
   --card-5: #437D80;
+  --ticket-details: rgba(0, 0, 0, 0.48)
 }
 
 .App {
