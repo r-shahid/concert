@@ -56,7 +56,7 @@
   },
   {
     "slug" : "beyonce",
-    "thumbnail": "/images/card3.webp",
+    "thumbnail": "beyonce/blue.JPG",
     "artist": "Beyoncé",
     "tourName": "Cowboy Carter Tour",
     "venue": "MetLife Stadium",
@@ -70,13 +70,19 @@
     "section": "Section 317",
     "row": "Row 20",
     "seat": "Seat 23",
-    "setList": "setlist 3 link",
-    "poster": "poster img 3",
+    "setList": "https://www.setlist.fm/setlist/beyonce/2025/metlife-stadium-east-rutherford-nj-5b5a6334.html",
+    "poster": "beyonce/poster.jpg",
     "text": "text 3",
     "photos": {
-      "1": "link 1",
-      "2": "link 2",
-      "3": "link 3"
+      "wide shot of stage and sky": "beyonce/sky.JPG",
+      "set pic 1": "beyonce/red.JPG",
+      "set pic 2": "beyonce/orange.JPG",
+      "set pic 3": "beyonce/blue.JPG",
+      "set pic 4": "beyonce/hazy.png",
+      "set pic 5": "beyonce/girls.JPG",
+      "set pic 6": "beyonce/car.jpg",
+      "wide shot later into the night": "beyonce/aerial.jpg",
+      "stage pyrotechnics": "beyonce/flames.jpg"
     }
   },
   {

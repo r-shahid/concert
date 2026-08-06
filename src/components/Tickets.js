@@ -12,7 +12,7 @@ function Ticket({ allConcerts }) {
       {allConcerts.map((concert) => {
         return (
           <Link
-            className="stack"
+            className={`stack ${concert.slug}`}
             key={concert.index}
             // style={{ "--index": concert.index }}
             to={`/concert/${concert.date.y}/${concert.slug}`}

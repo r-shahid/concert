@@ -54,7 +54,7 @@
 
 .ticket-image {
   height: 100%;
-  min-height: 400px;
+  min-height: 300px;
   border-radius: 26px;
   overflow: hidden;
 }
@@ -67,7 +67,7 @@
 }
 
 .ticket-content {
-  padding: 8px 16px 20px 0;
+  padding: 8px 8px 20px 0px;
   /* background-color: blue; */
   display: flex;
   flex-direction: column;
@@ -99,7 +99,7 @@
   font-size: clamp(1.5rem, 3.5vw, 3.3rem) !important;
   /* line-height: 0.95; */
   letter-spacing: 0.5px;  
-  /* margin-bottom: 24px; */
+  margin-bottom: -10px;
   /* text-transform: uppercase; */
 }
 .ticket-content .location p.venue {
@@ -147,4 +147,12 @@
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
+}
+
+
+/* unique ticket styling */
+.stack.beyonce img{
+    height: 430px;
+    object-fit: cover;
+    transform: scale(1.1);
 }

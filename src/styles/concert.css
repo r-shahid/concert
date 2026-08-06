@@ -181,3 +181,18 @@
     vertical-align: middle;
     padding-left: 8px;
 }
+
+.beyoncé-may-2025 .gallery img:nth-child(2), 
+.beyoncé-may-2025 .gallery img:nth-child(3), 
+.beyoncé-may-2025 .gallery img:nth-child(4), 
+.beyoncé-may-2025 .gallery img:nth-child(5), 
+.beyoncé-may-2025 .gallery img:nth-child(6), 
+.beyoncé-may-2025 .gallery img:nth-child(7){
+    width: 49%;
+    display: inline-block;
+    aspect-ratio: 3/4;
+    object-fit: cover;
+}
+.beyoncé-may-2025 .gallery img:nth-child(2), .beyoncé-may-2025 .gallery img:nth-child(4), .beyoncé-may-2025 .gallery img:nth-child(6){
+    margin-right: 8px;
+}
