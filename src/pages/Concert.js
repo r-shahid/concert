@@ -38,17 +38,17 @@ function Concert({ allConcerts }) {
               <p className="state">{concert.state}</p>
             </div>
             <div className="setlist">
-              <a href={concert.setList}>Setlist</a>
+              <a href={concert.setList} target="_blank">Setlist</a>
             </div>
           </div>
         </div>
         <div className="poster">
-          <img src={concert.poster} alt={`${concert.tourName} poster`} />
+          <img src={`/photos/${concert.poster}`} alt={`${concert.tourName} poster`} />
         </div>
         <div className="text" dangerouslySetInnerHTML={{ __html: concert.text }}></div>
         <div className="gallery">
           {Object.entries(concert.photos).map((photo) => {
-            return <img src={photo[1]} alt={photo[0]} />;
+            return <img src={`/photos/${photo[1]}`} alt={photo[0]} />;
           })}
         </div>
       </div>
