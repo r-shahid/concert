@@ -1,6 +1,6 @@
 [
   {
-    "slug" : "travis-scott",
+    "slug": "travis-scott",
     "thumbnail": "travisscott/circmax.jpg",
     "artist": "Travis Scott",
     "tourName": "One Night Only in Utopia",
@@ -17,7 +17,7 @@
     "seat": "Seat 5",
     "setList": "https://www.setlist.fm/setlist/travis-scott/2024/metlife-stadium-east-rutherford-nj-3547513.html",
     "poster": "travisscott/poster.webp",
-    "text": "<h3>My First Concert! </h3>This was my first concert ever and it really set the bar high. It was my first time at Metlife Stadium too and honestly, it was the perfect venue for Travis Scott. The stadium was absolutely packed and the energy was insane, which was surprising given that this took place on a Wednesday. I was a little taken aback at how young so many of the fans were (and slightly impressed that they made it out here on a school night) but I still had a blast! My only regret is not lining up for the Slingshot ride in the middle of the pit. <br /><br />Even though I didn't have any prior concerts to compare this one to, I could tell how special this night was. Travis Scott brought out Playboi Carti, Future, and Sheck Wes. In between playing <i>FE!N</i> seven times, he also performed <i>Apple Pie</i>, making this the first live performance since 2016.",
+    "text": "<h3>My First Concert! </h3>This was my first concert ever and it really set the bar high. It was my first time at Metlife Stadium too and honestly, it was the perfect venue for Travis Scott. The stadium was absolutely packed and the energy was insane, which was surprising given that this took place on a Wednesday. I was also a little taken aback at how young so many of the fans were (and slightly impressed that they made it out here on a school night) but I still had a blast! My only regret is not lining up for the Slingshot ride in the middle of the pit. <br /><br />Even though I didn't have any prior concerts to compare this one to, I could tell how special this night was. Travis Scott brought out Playboi Carti, Future, and Sheck Wes. In between playing <i>FE!N</i> seven times, he also performed <i>Apple Pie</i>, making this the first live performance since 2016.",
     "photos": {
       "packed stadium - aerial view": "travisscott/circmax.jpg",
       "travis scott": "travisscott/tscott.webp",
@@ -28,7 +28,7 @@
     }
   },
   {
-    "slug" : "kendrick-lamar-sza",
+    "slug": "kendrick-lamar-sza",
     "thumbnail": "kendricksza/poster.webp",
     "artist": "Kendrick Lamar and SZA",
     "tourName": "Grand National Tour",
@@ -55,7 +55,7 @@
     }
   },
   {
-    "slug" : "beyonce",
+    "slug": "beyonce",
     "thumbnail": "beyonce/blue_half.JPG",
     "artist": "Beyoncé",
     "tourName": "Cowboy Carter Tour",
@@ -72,7 +72,7 @@
     "seat": "Seat 23",
     "setList": "https://www.setlist.fm/setlist/beyonce/2025/metlife-stadium-east-rutherford-nj-5b5a6334.html",
     "poster": "beyonce/poster.jpg",
-    "text": "<img src='/photos/beyonce/selfie.jpg' alt='selfie before the concert starts' style='float: right; margin-left: 20px; max-width: 30%; height: auto; aspect-ratio: 2/3; object-fit: cover; max-height: 400px;' />I'm not exactly a diehard Beyoncé fan but I couldn't miss a performance practically in my backyard. And I'm glad I went because I had so much fun! The Beyhive brought the energy and I felt it even in the upper bowl. <br /><br />The visuals were stunning and so entertaining. I felt like I was being led through her eras by hand via a series of beautiful transitions and interludes. It was also so sweet to see her daughters Blue Ivy and Rumi on stage.<br /><br />For such a packed show, we wanted to try to leave before the main crowd so we started making our way out during the second-to-last song. I was able to get home just before 1 AM but my friends stayed until the end and it took them almost twice as long. One of them almost missed the last train for the night! ",
+    "text": "<img src='/photos/beyonce/selfie.jpg' alt='selfie before the concert starts' style='float: right; margin-left: 20px; max-width: 30%; height: auto; aspect-ratio: 2/3; object-fit: cover; max-height: 400px;' />I'm not exactly a diehard Beyoncé fan but I couldn't miss a performance practically in my backyard. And I'm glad I went because I had so much fun! The Beyhive brought the energy and I felt it even in the upper bowl. <br /><br />The visuals were stunning and so entertaining. I felt like I was being led through her eras by hand via a series of beautiful transitions and interludes. It was also so sweet to see her daughters Blue Ivy and Rumi on stage.<br /><br />We started making our way out during the second-to-last song so we could avoid the crowd at the end. I was able to get home just before 1 AM but my friends stayed until the end and it took them almost twice as long. One of them almost missed the last train for the night! ",
     "photos": {
       "wide shot of stage and sky": "beyonce/sky.JPG",
       "set pic 1": "beyonce/red_half.JPG",
@@ -86,8 +86,8 @@
     }
   },
   {
-    "slug" : "the-weeknd",
-    "thumbnail": "thumbnail 5",
+    "slug": "the-weeknd",
+    "thumbnail": "theweeknd/finale.jpg",
     "artist": "The Weeknd",
     "tourName": "After Hours Til Dawn Tour",
     "venue": "MetLife Stadium",
@@ -101,19 +101,34 @@
     "section": "Section 142",
     "row": "Row 14",
     "seat": "Seat 2",
-    "setList": "setlist 5 link",
-    "poster": "poster img 5",
-    "text": "text 5",
+    "setList": "https://www.setlist.fm/setlist/the-weeknd/2025/metlife-stadium-east-rutherford-nj-6b5ac60a.html",
+    "poster": "theweeknd/poster.webp",
+    "text": "<h3>Now this is a stadium tour!</h3> Out of all the concerts I've been to at Metlife Stadium, this is the one that made the best use of its space. The stage design was thoughtful in the way it created two different &quot;zones&quot; with the main area and the statue. The strobe lights, pyrotechnics, and our light-up wristbands made this a visual experience. <br /> <br />The entire stadium was <i>packed</i>. All three nights at Metlife Stadium were completely sold out, making The Weeknd the <a href='https://people.com/the-weeknd-becomes-highest-grossing-black-male-artist-to-ever-perform-at-metlife-stadium-11751141'>highest-grossing Black male artist</a> to ever perform at this stadium. ",
     "photos": {
-      "1": "link 1",
-      "2": "link 2",
-      "3": "link 3"
+      "Abel singing on the main stage": "theweeknd/main2.jpg",
+      "Abel singing on the main stage 2": "theweeknd/main4.jpg",
+      "Abel singing on the main stage 3": "theweeknd/main3_close.jpg",
+      "view of statue 1": "theweeknd/stage2_1.jpg",
+      "view of statue 2": "theweeknd/stage2_2.jpg",
+      "strobe lights": "theweeknd/strobe.jpg",
+      "lightshow": "theweeknd/view1.jpg",
+      "lightshow 2": "theweeknd/view2.jpg",
+      "lightshow 3": "theweeknd/view3.jpg",
+      "lightshow 7": "theweeknd/view7.jpg",
+      "lightshow 5": "theweeknd/view5.jpg",
+      "lightshow 4": "theweeknd/view4.jpg",
+      "lightshow 6": "theweeknd/view6.jpg",
+      "view of statue 3": "theweeknd/statue2.jpg",
+      "view of statue 4": "theweeknd/statue_blue.jpg",
+      "mainstage pyro": "theweeknd/mainstage.jpg",
+      "selfie": "theweeknd/selfie.jpg",
+      "closing fireworks": "theweeknd/finale.jpg"
     }
   },
   {
-    "slug" : "wacka-flocka-flame",
+    "slug": "waka-flocka-flame",
     "thumbnail": "wakaflocka/wakaflocka.jpg",
-    "artist": "Wacka Flocka Flame",
+    "artist": "Waka Flocka Flame",
     "tourName": "Collect-A-Con",
     "venue": "New Jersey Expo Center",
     "city": "Edison",
@@ -127,17 +142,18 @@
     "row": null,
     "seat": null,
     "setList": "setlist 5 link",
-    "poster": "poster img 5",
-    "text": "text 5",
+    "poster": "wakaflocka/poster.jpg",
+    "text": "Collect-A-Con is a two-day traveling convention that draws the trading card and anime crowd. This was my first time at Collect-A-Con and it was especially cool being there as a vendor. Every Collect-A-Con has a musical guest on Day 1 and at this show it was Waka Flocka Flame. <br /> <br /> I had no idea he was such a big Pokemon fan!",
     "photos": {
-      "1": "link 1",
-      "2": "link 2",
-      "3": "link 3"
+      "waka flocka 1": "wakaflocka/IMG_4646.jpg",
+      "waka flocka 2": "wakaflocka/IMG_4647.jpg",
+      "waka flocka 3": "wakaflocka/IMG_4648.jpg",
+      "photos by MeganFlickPhotography": "wakaflocka/megan.jpg"
     }
   },
   {
-    "slug" : "steve-aoki",
-    "thumbnail": "thumbnail 6",
+    "slug": "steve-aoki",
+    "thumbnail": "steveaoki/thumbnail.jpg",
     "artist": "Steve Aoki",
     "tourName": "Collect-A-Con",
     "venue": "Westworld of Scottsdale",
@@ -151,18 +167,25 @@
     "section": null,
     "row": null,
     "seat": null,
-    "setList": "setlist 6 link",
-    "poster": "poster img 6",
-    "text": "text 6",
+    "setList": null,
+    "poster": "steveaoki/poster.jpg",
+    "text": "This was my second Collect-A-Con but the first one we had to travel for! Steve Aoki had a really great set and I had so much fun seeing him perform. Unlike other Collect-A-Con concerts, they dimmed the lights in the venue. This, along with the insane visuals, made it a super immersive experience. I almost forgot I was at a trade show. <br /> <br />Given that this wasn't a traditional concert venue, I didn't think he would throw cakes but he did! In the middle of hundreds of vendors selling Pokemon cards, anime merch, and Labubus, he launched one sheet cake after another. ",
     "photos": {
-      "1": "link 1",
-      "2": "link 2",
-      "3": "link 3"
+      "steve 1": "steveaoki/thumbnail.jpg",
+      "steve 2": "steveaoki/IMG_4651.jpg",
+      "steve 3": "steveaoki/IMG_4652.jpg",
+      "steve 4": "steveaoki/full-IMG_4656.jpg",
+      "steve 5": "steveaoki/IMG_4653.jpg",
+      "steve 6": "steveaoki/IMG_4654.jpg",
+      "steve 7": "steveaoki/IMG_4655.jpg",
+      "steve 9": "steveaoki/full-IMG_4658.jpg",
+      "steve 8": "steveaoki/IMG_4659.jpg",
+      "steve 10": "steveaoki/IMG_4657.jpg"
     }
   },
   {
-    "slug" : "don-toliver",
-    "thumbnail": "/images/card3.webp",
+    "slug": "don-toliver",
+    "thumbnail": "dontoliver/IMG_4688.PNG",
     "artist": "Don Toliver",
     "tourName": "Octane Tour",
     "venue": "Prudential Center",
@@ -176,17 +199,26 @@
     "section": "Section 20",
     "row": "Row 16",
     "seat": "Seat 14",
-    "setList": "setlist 4 link",
-    "poster": "poster img 4",
-    "text": "text 4",
+    "setList": "https://www.setlist.fm/setlist/don-toliver/2026/prudential-center-newark-nj-2b4b900e.html",
+    "poster": "dontoliver/poster.jpg",
+    "text": "This concert was super last minute for us but we made it just in time to catch the end of the opening acts. The openers were SoFaygo, Chase B, and SahBabii. I hadn't heard of any of them but I was pleasantly surprised by SahBabii. We missed the other two but I ended up listening to them later. <br /> <br /> Don Toliver sounded exactly the same in concert as he does on his songs. The setlist consisted of mainly songs from his newest album <i>Octane</i> with a handful of other songs and covers sprinkled throughout. Towards the end of the show he also brought out Sheck Wes.<br /><br /> This was my first time at the Prudential Center and I liked it a lot. Its location (smack dab in the middle of Newark) reminded me of the stadium in Hey Arnold and for a night I could pretend I lived in a walkable city. ",
     "photos": {
-      "1": "link 1",
-      "2": "link 2",
-      "3": "link 3"
+      "opening 1": "dontoliver/IMG_4662.jpg",
+      "opening 2": "dontoliver/IMG_4663.jpg",
+      "don 1": "dontoliver/IMG_4682.PNG",
+      "don 2": "dontoliver/IMG_4683.PNG",
+      "don toliver 3": "dontoliver/IMG_4680.PNG",
+      "don toliver 4": "dontoliver/IMG_4684.PNG",
+      "don toliver 5": "dontoliver/IMG_4690.PNG",
+      "don full 1": "dontoliver/IMG_4685.PNG",
+      "don full 2": "dontoliver/IMG_4686.PNG",
+      "don full 3": "dontoliver/IMG_4687.PNG",
+      "don on platform 1": "dontoliver/IMG_4688.PNG",
+      "don on platform 2": "dontoliver/IMG_4689.PNG"
     }
   },
   {
-    "slug" : "soulja-boy",
+    "slug": "soulja-boy",
     "thumbnail": "thumbnail 7",
     "artist": "Soulja Boy",
     "tourName": "Collect-A-Con",
@@ -211,7 +243,7 @@
     }
   },
   {
-    "slug" : "neyo-akon",
+    "slug": "neyo-akon",
     "thumbnail": "thumbnail 7",
     "artist": "Ne-Yo & Akon",
     "tourName": "Nights Like This Tour",

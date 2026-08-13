@@ -61,7 +61,9 @@
 
 .ticket-image img {
   width: 100%;
-  height: 100%;
+  /* min-height: 300px; */
+  height: 400px;
+  /* height: 100%; */
   object-fit: cover;
   /* object-position: 50% 5%; */
 }
@@ -155,4 +157,17 @@
   object-fit: cover;
   transform: scale(1.5);
   object-position: 100% 65%;
+}
+.stack.the-weeknd img {
+  transform: scale(1.2);
+  object-position: 40%;
+}
+.stack.steve-aoki img {
+  transform: scale(1.1);
+  object-position: 50% 40%;
+}
+
+.stack.don-toliver img {
+  transform: scale(1.2);
+  object-position: 50% 20%;
 }

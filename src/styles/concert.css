@@ -123,7 +123,7 @@
 }
 
 .concert-details .text, .concert-details .gallery {
-    max-width: 80%;
+    max-width: 90%;
     margin: auto;
 }
 
@@ -147,6 +147,10 @@
   font-variation-settings: "slnt" -1;
 }
 
+.concert-details .text a {
+    color: inherit;
+}
+
 .concert-details .gallery {
   /* border: 2px solid black; */
   margin: 16px auto;
@@ -165,14 +169,13 @@
 
 .travis-scott-october-2024 .gallery img:nth-child(3),
 .travis-scott-october-2024 .gallery img:nth-child(4) {
-  /* border: 3px solid orange; */
   width: 49%;
   display: inline-block;
   aspect-ratio: 4 / 5;
   object-fit: cover;
 }
 .travis-scott-october-2024 .gallery img:nth-child(3){
-    margin-right: 16px;
+    margin-right: 1%;
 }
 .travis-scott-october-2024 .gallery img:nth-child(5) {
   aspect-ratio: 4/3;
@@ -212,4 +215,89 @@
 .beyoncé-may-2025 .gallery img:nth-child(4),
 .beyoncé-may-2025 .gallery img:nth-child(6) {
   margin-right: 8px;
+}
+
+.the-weeknd-june-2025 .gallery img[src*="main2"] , .the-weeknd-june-2025 .gallery img[src*="main4"] , .the-weeknd-june-2025 .gallery img[src*="main3"]  {
+    width: 33%;
+    display: inline-block;
+    aspect-ratio: 3/4;
+    margin-right: 0.167%;
+    margin-left: 0.167%;
+}
+.the-weeknd-june-2025 .gallery img[src*="mainstage"] ,
+.the-weeknd-june-2025 .gallery img[src*="selfie"]  {
+    width: 49%;
+    display: inline-block;
+    aspect-ratio: 4/3;
+    object-fit: cover;
+    margin-right: 0.5%;
+    margin-left: 0.5%;
+}
+.the-weeknd-june-2025 .gallery img[src*="strobe"], 
+.the-weeknd-june-2025 .gallery img[src*="view"] {
+    width: 49%;
+    display: inline-block;
+    aspect-ratio: 2/1;
+    object-fit: cover;
+    margin-right: 0.5%;
+    margin-left: 0.5%;
+}
+.the-weeknd-june-2025 .gallery img[src*="statue"] {
+    width: 49%;
+    display: inline-block;
+    aspect-ratio: 2/3;
+    object-fit: cover;
+    margin-right: 0.5%;
+    margin-left: 0.5%;
+}
+
+.waka-flocka-flame-july-2025 .setlist, .waka-flocka-flame-july-2025 .setlist a,
+.steve-aoki-may-2026 .setlist, .steve-aoki-may-2026 .setlist a {
+    display: none;
+}
+.waka-flocka-flame-july-2025 .gallery img[src*="IMG"]{
+    width: 33%;
+    display: inline-block;
+    aspect-ratio: 4/5;
+    object-fit: cover;
+    margin-right: 0.16%;
+    margin-left: 0.16%;
+}
+
+.steve-aoki-may-2026 .gallery img:not([src*="full"])
+/* .steve-aoki-may-2026 .gallery img[src*="thumbnail"],
+.steve-aoki-may-2026 .gallery img[src*="4651"],
+.steve-aoki-may-2026 .gallery img[src*="4652"] */
+{
+    width: 33%;
+    display: inline-block;
+    aspect-ratio: 2/3;
+    object-fit: cover;
+    margin-right: 0.16%;
+    margin-left: 0.16%;
+}
+.steve-aoki-may-2026 .gallery img[alt*="8"],
+.steve-aoki-may-2026 .gallery img[alt*="10"]{
+    width: 49%;
+    margin-right: 0.25%;
+    margin-left: 0.25%;
+
+}
+
+.don-toliver-may-2026 .gallery img[src*="466"],
+.don-toliver-may-2026 .gallery img[alt*="platform"]{
+    width: 49%;
+    display: inline-block;
+    aspect-ratio: 9/16;
+    object-fit: cover;
+    margin-right: 0.25%;
+    margin-left: 0.25%;
+}
+.don-toliver-may-2026 .gallery img[alt*="toliver"]{
+    width: 33%;
+    display: inline-block;
+    aspect-ratio: 9/16;
+    object-fit: cover;
+    margin-right: 0.16%;
+    margin-left: 0.16%;
 }
