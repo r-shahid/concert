@@ -219,7 +219,7 @@
   },
   {
     "slug": "soulja-boy",
-    "thumbnail": "thumbnail 7",
+    "thumbnail": "souljaboy/IMG_4699.png",
     "artist": "Soulja Boy",
     "tourName": "Collect-A-Con",
     "venue": "New Jersey Expo Center",
@@ -234,12 +234,13 @@
     "row": null,
     "seat": null,
     "setList": "setlist 7 link",
-    "poster": "poster img 7",
-    "text": "text 7",
+    "poster": "souljaboy/poster.jpeg",
+    "text": "If you told middle school me that I'd see Soulja Boy perform <i>Kiss Me Through The Phone </i> live while surrounded by Pokemon, I wouldn't believe you. I listened to him the most in middle school, so being here in this crowd was super nostalgic.",
     "photos": {
-      "1": "link 1",
-      "2": "link 2",
-      "3": "link 3"
+      "Soulja Boy performing 1": "souljaboy/IMG_4692.png",
+      "Soulja Boy performing 2": "souljaboy/IMG_4694.png",
+      "Soulja Boy performing 3": "souljaboy/IMG_4696.png",
+      "Soulja Boy performing 4": "souljaboy/IMG_4698.png"
     }
   },
   {

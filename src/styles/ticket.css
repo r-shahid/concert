@@ -27,6 +27,7 @@
   filter: drop-shadow(0 0 6px rgba(211, 38, 8, 0.538));
   margin-bottom: 32px;
   rotate: var(--angle);
+  /* transform: rotate(calc(var(--index)/5 * var(--angle))); */
 }
 /* .stack-card:last-child {
     margin-bottom: 0;
@@ -40,6 +41,7 @@
 .stack:nth-child(4n + 2) {
   --card-text: var(--card-4);
   --card-bg: var(--card-1);
+  --angle: 1.5deg;
 }
 .stack:nth-child(4n + 3) {
   --card-text: var(--card-2);
@@ -170,4 +172,9 @@
 .stack.don-toliver img {
   transform: scale(1.2);
   object-position: 50% 20%;
+}
+
+.stack.soulja-boy img {
+  transform: scale(1.3);
+  object-position: -100%;
 }

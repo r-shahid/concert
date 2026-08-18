@@ -252,7 +252,8 @@
 }
 
 .waka-flocka-flame-july-2025 .setlist, .waka-flocka-flame-july-2025 .setlist a,
-.steve-aoki-may-2026 .setlist, .steve-aoki-may-2026 .setlist a {
+.steve-aoki-may-2026 .setlist, .steve-aoki-may-2026 .setlist a,
+.soulja-boy-july-2026 .setlist, .soulja-boy-july-2026 .setlist a {
     display: none;
 }
 .waka-flocka-flame-july-2025 .gallery img[src*="IMG"]{
@@ -300,4 +301,12 @@
     object-fit: cover;
     margin-right: 0.16%;
     margin-left: 0.16%;
+}
+
+.soulja-boy-july-2026 .gallery img[src*="IMG"]{
+    width: 49%;
+    display: inline-block;
+    object-fit: cover;
+    margin-right: 0.25%;
+    margin-left: 0.25%;
 }
