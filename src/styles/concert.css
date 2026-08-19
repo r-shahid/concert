@@ -1,14 +1,18 @@
 .Concert.one {
   background-color: var(--card-1);
+  color: var(--card-4);
 }
 .Concert.two {
   background-color: var(--card-2);
+  color: var(--card-3);
 }
 .Concert.three {
   background-color: var(--card-3);
+  color: var(--card-2);
 }
 .Concert.five {
   background-color: var(--card-5);
+  color: var(--card-4);
 }
 .concert-details {
   width: 80vw;
@@ -16,10 +20,6 @@
   text-align: left;
   padding-top: 10vh;
   padding-bottom: 200px;
-}
-
-.concert-details .info {
-  /* border: 2px solid black; */
 }
 
 .concert-details .info .artist {
@@ -117,8 +117,9 @@
     rotate: 2deg;
 }
 .concert-details .box .second_setlist {
-    rotate: -2deg;
+    rotate: -1deg;
     margin-top: 0.8rem;
+    margin-left: 10px;
 }
 
 .concert-details .poster {

@@ -42,7 +42,7 @@
     rotate: -1deg;
     color: black;
     background-color: white;
-    width: fit-content;
+    width: max-content;
 }
 
 
