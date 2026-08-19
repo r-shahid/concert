@@ -15,7 +15,7 @@
   color: var(--card-4);
 }
 .concert-details {
-  width: 80vw;
+  width: 70vw;
   margin: auto;
   text-align: left;
   padding-top: 10vh;
@@ -55,6 +55,11 @@
   /* line-height: 1.7; */
   margin-top: 0;
   color: var(--ticket-details);
+  font-family: var(--text-font);
+  /* font-family: var(--title-font); */
+  font-weight: 600;
+  /* font-variation-settings: "wdth" 110; */
+  /* letter-spacing: 0.15rem; */
 }
 
 .concert-details .box {
@@ -69,15 +74,21 @@
   margin: 0;
 }
 
+.concert-details .box .location {
+  font-family: var(--title-font);
+  font-family: var(--text-font);
+  font-weight: 800;
+}
+
 .concert-details .box .location,
 .concert-details .box .setlist {
-  font-family: var(--text-font);
   font-size: clamp(1rem, 2vw, 2rem);
   font-weight: 800;
   color: var(--ticket-details);
 }
 
 .concert-details .box .setlist {
+  font-family: var(--text-font);
   display: flex;
   /* justify-content: center; */
   align-items: center;
@@ -125,14 +136,15 @@
 .concert-details .poster {
   /* border: 2px solid black; */
   margin: 8px auto;
-  /* width: 80%; */
+  width: 90%;
+  background-color: green;
   /* aspect-ratio: 4/5; */
 }
 
 .concert-details .poster img {
   display: block;
   margin: auto;
-  max-width: 100%;
+  width: 100%;
   height: auto;
 }
 
@@ -144,16 +156,20 @@
 .concert-details .text {
   /* border: 2px solid black; */
   padding: 8px 0;
-  font-size: clamp(0.9rem, 1.8vw, 1.5rem);
+  font-size: clamp(1rem, 1.8vw, 1.5rem);
   font-family: var(--text-font);
   font-weight: 500;
   line-height: 1.3;
+  font-variation-settings: "wdth" 105;
   /* font-variation-settings: "wdth" 110; */
+  text-wrap: pretty;
 }
 
 .concert-details .text h3 {
   font-weight: 800;
   font-variation-settings: "wdth" 130;
+  /* font-family: var(--title-font); */
+  /* letter-spacing: 0.15rem; */
   /* color: var(--ticket-details); */
 }
 
@@ -177,6 +193,10 @@
   max-width: 100%;
   height: auto;
   /* padding: 0 8px; */
+}
+
+@media screen and (max-width: 768px){
+
 }
 
 /* unique image styling for each concert */

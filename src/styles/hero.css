@@ -52,9 +52,32 @@
   text-transform: uppercase;
   pointer-events: none;
   transform: translate(
-      calc(-50% + (var(--scroll) * (-65vw + 50% + 30px))),
-      calc(-50% + (var(--scroll) * (-47vh + 35% + 20px)))
+      calc(-50% + (var(--scroll) * (-70vw + 50%))),
+      calc(-50% + (var(--scroll) * (-44vh + 35%)))
     )
     scale(calc(1 - (var(--scroll) * 0.5)));
   transform-origin: center center;
+}
+
+@media (max-width: 500px){
+  .Hero .title {
+    font-size: 1.4rem ;
+    transform: translate(
+      calc(-50% + (var(--scroll) * (-45vw + 50%))),
+      calc(-50% + (var(--scroll) * (-45vh + 35%)))
+    )
+    ;
+  }
+}
+
+@media (min-width: 501px) and (max-width: 768px){
+  .Hero .title {
+    font-size: 2rem;
+    transform: translate(
+      calc(-50% + (var(--scroll) * (-58vw + 50%))),
+      calc(-50% + (var(--scroll) * (-42vh + 35%)))
+    )
+    scale(calc(1 - (var(--scroll)) * 0.25))
+    ;
+  }
 }

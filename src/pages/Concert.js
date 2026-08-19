@@ -64,20 +64,21 @@ function Concert({ allConcerts }) {
             </div>
             {concert.setList2 ? (
               <div className="setlist">
-                <a id="setlist_link" href={concert.setList} target="_blank">
+                <a id="setlist_link" href={concert.setList} target="_blank" rel="noreferrer">
                   Setlist 1
                 </a>
                 <a
                   className="second_setlist"
                   href={concert.setList2}
                   target="_blank"
+                  rel="noreferrer"
                 >
                   SetList 2
                 </a>
               </div>
             ) : (
               <div className="setlist">
-                <a id="setlist_link" href={concert.setList} target="_blank">
+                <a id="setlist_link" href={concert.setList} target="_blank" rel="noreferrer">
                   Setlist
                 </a>
               </div>

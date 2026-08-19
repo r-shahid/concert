@@ -22,3 +22,9 @@
 .Header .portfolio-link {
     font-family: "Silkscreen";
 }
+
+@media (max-width: 400px){
+    .Header{
+        font-size: clamp(1rem, 0.8vw, 1.4rem);
+    }
+}

@@ -153,34 +153,6 @@
   gap: 10px;
 }
 
-@media screen and (max-width: 768px){
-  .Ticket {
-    max-width: 650px;
-  }
-
-  .ticket-image {
-    height: 100px;
-  }
-
-  .stack {
-    min-height: fit-content;
-  }
-}
-
-@media screen and (max-width: 430px){
-  .Ticket {
-    max-width: 350px;
-  }
-
-  .ticket-image {
-    display: none;
-  }
-
-  .stack {
-    grid-template-columns: 1fr;
-  }
-}
-
 /* unique ticket styling */
 .stack.beyonce img {
   height: 400px;
@@ -211,4 +183,33 @@
   object-fit: cover;
   transform: scale(1.6);
   transform-origin: 65% 90%;
+}
+
+@media (max-width: 768px){
+  .Ticket {
+    max-width: 650px;
+  }
+
+  .ticket-image {
+    height: 100px;
+  }
+
+  .stack {
+    min-height: fit-content;
+  }
+}
+
+@media (max-width: 550px){
+  .Ticket {
+    max-width: 350px;
+  }
+
+  .ticket-image {
+    display: none ;
+  }
+
+  .stack {
+    grid-template-columns: 1fr;
+    padding: 14px 20px;
+  }
 }
