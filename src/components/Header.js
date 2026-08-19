@@ -8,7 +8,7 @@ function Header(){
             <Link className="title" to="/">
             Riana's Concert Archive
             </Link>
-            <a className="portfolio-link" href="https://rianashahid.com" target="_blank">
+            <a className="portfolio-link" href="https://rianashahid.com" target="_blank" rel="noreferrer">
                 RS
             </a>
         </div>
