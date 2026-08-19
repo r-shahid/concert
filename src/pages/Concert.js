@@ -1,4 +1,3 @@
-import React from "react";
 import Header from "../components/Header";
 import { useParams } from "react-router-dom";
 import "../styles/concert.css";
