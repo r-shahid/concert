@@ -13,13 +13,38 @@ function Concert({ allConcerts }) {
     return <h2>Concert not found</h2>;
   }
 
-  const colors = ["one", "two", "three", "five"]
+  const colors = ["one", "two", "three", "five"];
 
-  const bg_color = colors[Math.floor(Math.random()*4)];
+  const bg_color = colors[Math.floor(Math.random() * 4)];
 
-  const concert_class = concert.artist.split(" ").join("-").toLowerCase()+"-"+concert.date.m.toLowerCase()+"-"+concert.date.y;
+  const concert_class =
+    concert.artist.split(" ").join("-").toLowerCase().replaceAll("&", "") +
+    "-" +
+    concert.date.m.toLowerCase() +
+    "-" +
+    concert.date.y;
 
-  
+  // const openTwoLinks = (event) =>{
+  //   event.preventDefault();
+  //   window.open(concert.setList, '_blank');
+  //   window.open(concert.setList2, '_blank');
+  //   if (concert_class === "ne-yo--akon-july-2026"){
+  //     console.log("neyo and akon")
+  //     const setListLink = document.getElementById("setlist_link")
+  //     // setListLink.href = concert.setList;
+  //     setListLink.addEventListener("click", openTwoLinks())
+  //   }
+  // }
+
+  // if (concert_class === "ne-yo--akon-july-2026"){
+  //   const setListContainer = document.getElementsByClassName("setlist")
+
+  //   const setListLink2 = document.createElement('a');
+  //   setListLink2.href = concert.setList2;
+  //   setListLink2.target = "_blank"
+
+  //   setListContainer[0].appendChild(setListLink2)
+  // }
 
   return (
     <div className={`Concert ${bg_color}`}>
@@ -37,15 +62,38 @@ function Concert({ allConcerts }) {
               <p className="city">{concert.city}</p>
               <p className="state">{concert.state}</p>
             </div>
-            <div className="setlist">
-              <a href={concert.setList} target="_blank">Setlist</a>
-            </div>
+            {concert.setList2 ? (
+              <div className="setlist">
+                <a id="setlist_link" href={concert.setList} target="_blank">
+                  Setlist 1
+                </a>
+                <a
+                  className="second_setlist"
+                  href={concert.setList2}
+                  target="_blank"
+                >
+                  SetList 2
+                </a>
+              </div>
+            ) : (
+              <div className="setlist">
+                <a id="setlist_link" href={concert.setList} target="_blank">
+                  Setlist
+                </a>
+              </div>
+            )}
           </div>
         </div>
         <div className="poster">
-          <img src={`/photos/${concert.poster}`} alt={`${concert.tourName} poster`} />
+          <img
+            src={`/photos/${concert.poster}`}
+            alt={`${concert.tourName} poster`}
+          />
         </div>
-        <div className="text" dangerouslySetInnerHTML={{ __html: concert.text }}></div>
+        <div
+          className="text"
+          dangerouslySetInnerHTML={{ __html: concert.text }}
+        ></div>
         <div className="gallery">
           {Object.entries(concert.photos).map((photo) => {
             return <img src={`/photos/${photo[1]}`} alt={photo[0]} />;

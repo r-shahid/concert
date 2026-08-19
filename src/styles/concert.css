@@ -93,8 +93,7 @@
     padding: 4px 8px; */
   height: fit-content;
   font-family: var(--secondary-font);
-  rotate: -1deg;
-  background-color: white;
+  /* rotate: -1deg; */
   /* font-weight: 900; */
 }
 /* .concert-details .box .setlist:active{
@@ -106,6 +105,20 @@
 .concert-details .box .setlist a {
   text-decoration: none;
   color: black;
+  background-color: white;
+}
+
+.concert-details .box .setlist:has(.second_setlist) {
+    display: flex;
+    flex-direction: column;
+}
+
+.concert-details .box #setlist_link {
+    rotate: 2deg;
+}
+.concert-details .box .second_setlist {
+    rotate: -2deg;
+    margin-top: 0.8rem;
 }
 
 .concert-details .poster {
@@ -309,4 +322,19 @@
     object-fit: cover;
     margin-right: 0.25%;
     margin-left: 0.25%;
+}
+
+.ne-yo--akon-july-2026 .gallery img[src*="half"]{
+    width: 49%;
+    display: inline-block;
+    object-fit: cover;
+    margin-right: 0.25%;
+    margin-left: 0.25%;
+}
+.ne-yo--akon-july-2026 .gallery img[src*="third"]{
+    width: 33%;
+    display: inline-block;
+    object-fit: cover;
+    margin-right: 0.16%;
+    margin-left: 0.16%;
 }

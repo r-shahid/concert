@@ -235,7 +235,7 @@
     "seat": null,
     "setList": "setlist 7 link",
     "poster": "souljaboy/poster.jpeg",
-    "text": "If you told middle school me that I'd see Soulja Boy perform <i>Kiss Me Through The Phone </i> live while surrounded by Pokemon, I wouldn't believe you. I listened to him the most in middle school, so being here in this crowd was super nostalgic.",
+    "text": "If you told middle school me that when I'm older, I'd see Soulja Boy perform <i>Kiss Me Through The Phone </i> live while surrounded by Pokemon, I wouldn't believe you. I listened to him the most in middle school, so being here in this crowd was super nostalgic.",
     "photos": {
       "Soulja Boy performing 1": "souljaboy/IMG_4692.png",
       "Soulja Boy performing 2": "souljaboy/IMG_4694.png",
@@ -245,7 +245,7 @@
   },
   {
     "slug": "neyo-akon",
-    "thumbnail": "thumbnail 7",
+    "thumbnail": "neyo-akon/IMG_4799.png",
     "artist": "Ne-Yo & Akon",
     "tourName": "Nights Like This Tour",
     "venue": "PNC Bank Arts Center",
@@ -259,13 +259,28 @@
     "section": "Section 104",
     "row": "Row P",
     "seat": "Seat 27",
-    "setList": "setlist 7 link",
-    "poster": "poster img 7",
-    "text": "text 7",
+    "setList": "https://www.setlist.fm/setlist/akon/2026/pnc-bank-arts-center-holmdel-nj-134a498d.html",
+    "setList2": "https://www.setlist.fm/setlist/neyo/2026/pnc-bank-arts-center-holmdel-nj-34a498f.html",
+    "poster": "neyo-akon/poster.jpg",
+    "text": "My husband surprised me with this concert! He picked out my outfit and gave me some vague clues for how to do my hair & makeup. I had an inkling we might be going to a concert when he told me to bring my Loops earplugs but still had no idea who we would see. The fact that it was Ne-yo and Akon was such a welcome surprise! I grew up listening to so many of their songs and never thought I would see them live. And what a live performance it was! They sounded exactly the same, if not better than the studio version for each song. They even sang covers of songs they had written for other artists. <br /> <br />This was my first time at PNC Bank Arts Center and if you've never seen it, it's equal parts concert venue and park. The stage and seating area are nested in a valley. Surrounding that are the lawn seats where people can sit on the grass and get a birds-eye view of the performance. We were pretty close to the stage (the closest I've ever been at a concert) and at one point Ne-yo was in arm's reach of me.",
     "photos": {
-      "1": "link 1",
-      "2": "link 2",
-      "3": "link 3"
+      "neyo 1": "neyo-akon/halfIMG_4783.png",
+      "akon 1": "neyo-akon/halfIMG_4800.png",
+      "neyo 2": "neyo-akon/IMG_4784.png",
+      "akon 2": "neyo-akon/halfIMG_4787.png",
+      "akon 3": "neyo-akon/halfIMG_4785.png",
+      "neyo 3": "neyo-akon/IMG_4786.png",
+      "neyo 4": "neyo-akon/halfIMG_4788.png",
+      "akon 4": "neyo-akon/halfIMG_4789.png",
+      "akon 5": "neyo-akon/thirdIMG_4790.png",
+      "akon 6": "neyo-akon/thirdIMG_4791.png",
+      "akon 7": "neyo-akon/thirdIMG_4797.png",
+      "akon 8": "neyo-akon/IMG_4792.png",
+      "akon 9": "neyo-akon/IMG_4793.png",
+      "neyo 5": "neyo-akon/halfIMG_4794.png",
+      "neyo 6": "neyo-akon/halfIMG_4795.png",
+      "akon 10": "neyo-akon/IMG_4798.png",
+      "akon and neyo": "neyo-akon/IMG_4799.png"
     }
   }
 ]
