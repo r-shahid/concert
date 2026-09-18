@@ -8,17 +8,16 @@ import allConcerts from "./data/concerts.json";
 
 function App() {
   const route = useLocation();
-  // const scrollTop = () => {
-  //   window.scrollTo(0,0);
-  // }
   useEffect(() => {
     window.scrollTo(0,0)
   }, [route]);
+
+  const reversedConcerts = allConcerts.toReversed()
   
   return (
     <div className="App">
       <Routes>
-        <Route exact path="/" element={<Home allConcerts={allConcerts} />} />
+        <Route exact path="/" element={<Home allConcerts={reversedConcerts} />} />
         <Route
           path="/concert/:year/:slug"
           element={<Concert allConcerts={allConcerts}/>}
